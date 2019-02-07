@@ -12,7 +12,7 @@
         
         A real document having the above structure would look like this:
         
-        {insert_code file = [[input_dir]]/examples/simple_document/03_01_document_example.pml title = File example.pml}
+        {insert_code file = [[examples_dir]]/simple_document/03_01_document_example.pml title = File example.pml}
         
         File {c example.pml} can be converted to file {c example.html} with the following command:
         
