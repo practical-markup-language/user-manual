@@ -12,7 +12,9 @@
         
         A real document having the above structure would look like this:
         
-        {insert_code file = [[examples_dir]]/simple_document/03_01_document_example.pml title = File example.pml}
+        {insert_code file = [[examples_dir]]/simple_document/03_01_document_example.pml \
+            title = File example.pml \
+            highlighter=none }
         
         File {c example.pml} can be converted to file {c example.html} with the following command:
         
@@ -38,13 +40,13 @@
         
         Every type of node has one standard tag, but can optionally have alternative tags. For example, the standard tag for a chapter node is {c chapter}. Alternatively, the shortcut {c ch} can also be used. Hence, writing:
         
-        {code
+        {code highlighter=none
             {chapter title = Chapter 1
         code}
         
         ... is equivalent to writing
     
-        {code
+        {code highlighter=none
             {ch title = Chapter 1
         code}
         
@@ -61,25 +63,25 @@
         
         To assign a value to an attribute, the syntax {c attribute_name = attribute_value} is used. For example:
         
-        {code
+        {code highlighter=none
             {chapter title = Fundamental Concepts
         code}
 
         An attribute value can optionally be quoted. Hence, the above code can also be written like this:
         
-        {code
+        {code highlighter=none
             {chapter title = "Fundamental Concepts"
         code}
 
         If an attribute value is embedded within quotes, then quotes within the value must be escaped with a preceding backslash ({c \\ }). For example:
 
-        {code
+        {code highlighter=none
             {chapter title = "PPL \"How to ...\" Guide"
         code}
 
         To increase the readability in case of several attributes, each attribute assignment can be written on a separate line. In this case each line, except the last one, must be terminated by a backslash ({c \\ }), as in the following example:
         
-        {code
+        {code highlighter=none
             {image source = images/ball.png \
                 width = 300 \
                 height = 200 \
@@ -104,7 +106,7 @@
         {list
         
             {el title = PML code:
-                {code
+                {code highlighter=none
                     {p html_style = color:red; border:1px dashed blue
                         It is important to note that ...
                     }
@@ -118,7 +120,7 @@
             }
             
             {el title = Generated HTML code:
-                {code
+                {code highlighter=none
                     <p style="color:red; border:1px dashed blue" class="pml-paragraph">It is important to note that ... </p>
                 code}
             }

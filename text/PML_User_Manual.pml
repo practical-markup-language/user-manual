@@ -1,6 +1,6 @@
 {doc title=PML User Manual \
     author=Christian Neumanns \
-    date=2018-12-01
+    date=2019-02-07
     
     {constant examples_dir=../input/examples}
     {constant images_dir=images}

@@ -6,7 +6,7 @@
     
     {list
         {el title = PML code:
-            {code
+            {code highlighter=none
                 This is {-- good --} awesome.
                 {-- TODO: explain why --}
             
@@ -23,7 +23,7 @@
         }
 
         {el title = Result:
-            {code
+            {code highlighter=none
                 This is awesome.
             
                 Text

@@ -4,13 +4,13 @@
 
     A parameter is composed of an {i identifier} (unique name) and a {i value}. The syntax for assigning a value to a parameter is:
     
-    {code
+    {code highlighter=none
         {const name = value}
     code}
     
     The value assigned to a parameter can be re-used in the document by simply specifying the parameter's identifier between {c [[} and {c ]]}, like this:
     
-    {code
+    {code highlighter=none
         [[name]]
     code}
     
@@ -21,7 +21,7 @@
     {list
     
         {el title = PML code:
-            {code
+            {code highlighter=none
                 {const docs_root_URL = http://www.example.com/project/docs/public}
         
                 For an overview please read the article {link url=[[docs_root_URL]]/concepts.html text=Basic Concepts}.

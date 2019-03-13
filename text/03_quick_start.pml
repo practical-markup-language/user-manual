@@ -6,7 +6,7 @@
     
         {el
             Use your preferred text editor to create a text file named {c example.pml} with the following content:
-            {code
+            {code highlighter=none
                 {doc title=First test
                     This is a {i simple} example.
                 }

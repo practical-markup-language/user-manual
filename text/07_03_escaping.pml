@@ -10,7 +10,7 @@
 
     {list
         {el title = PML code:
-            {code
+            {code highlighter=none
                 File path \= C:\\tests\\example.txt
                 
                 Instead of writing \\, we have to write \\\\

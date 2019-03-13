@@ -4,7 +4,7 @@
     
     The syntax to insert a {c pml} file at the current location is:
     
-    {code
+    {code highlighter=none
         {insert file = file_path} 
     code}
     
@@ -18,14 +18,14 @@
         {el title = PML code:
     
             We create file {c chapters/chapter_1.pml} that looks like this:
-            {code
+            {code highlighter=none
                 {ch title = Chapter 1
                     blah blah blah
                 }
             code}
         
             We also have file {c chapters/chapter_2.pml} with this content:
-            {code
+            {code highlighter=none
                 {ch title = Chapter 2
                     blah blah blah
                 }
@@ -33,7 +33,7 @@
             
             The main file {c book.pml} is defined like this:
         
-            {code
+            {code highlighter=none
                 {doc title = Book
                     {insert file=chapters/chapter_1.pml}
                     {insert file=chapters/chapter_2.pml}

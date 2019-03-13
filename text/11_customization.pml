@@ -55,7 +55,7 @@
                     }
                     {el
                         In the {i HTML code generated}, you can spot the line:
-                        {code
+                        {code highlighter=none
                             <h1 class="pml-document-title">A Nice Surprise</h1>
                         code}
                         So, now you know that the class identifier is {c pml-document-title}.
@@ -63,7 +63,7 @@
                     {el
                         You can now open the CSS file {c pml-default.css}, search for {c pml-document-title}, and change the class.
                         To display the title in blue, you can add a line at the end of the class definition. The result could look like this:
-                        {code
+                        {code highlighter=none
                             .pml-document-title {
                                 font-size: 2.2em;
                                 margin-top: 0.2em;
@@ -78,13 +78,13 @@
         If you want to change the style just for an {i individual} node, you can use the {c html_style} attribute, as {xref node_id=HTML_attributes text=seen already}. Alternatively, you can define an {i identifier} for the node, and then use the identifier in the CSS file to change the style.
 
         For example, to display a single paragraph with a yellow background, you would write the following PML code:
-        {code
+        {code highlighter=none
             {p id = my-id
                 This text is displayed on a yellow background.
             }
         code}
         Then you can add a rule in the CSS file, as follows:
-        {code
+        {code highlighter=none
             #my-id {
                 background-color: yellow;
             }

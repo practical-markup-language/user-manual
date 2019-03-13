@@ -11,7 +11,7 @@
     This is done by setting attribute {c TOC_position} of the {c document} node to {c top} or {c none}.
     For example, to display the TOC on top of the document, we would write:
     
-    {code
+    {code highlighter=none
         {doc title = Example \
             TOC_position = top
             ...
